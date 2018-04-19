@@ -1,3 +1,12 @@
+body {
+  
+    background-color: #2F2F2C; 
+    border: 5px solid #696969;
+    margin: 10px 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
 h1 {
     text-align: center;
     font-family: 'Petit Formal Script', cursive;
@@ -6,6 +15,7 @@ h1 {
 h2 {
     text-align: center;
 }
+
 hr {
     display: block;
     width: 60%;
@@ -15,30 +25,41 @@ hr {
     margin: 1em 10em;
     padding: 0;
 }
+
 nav {
     text-align: center;
 }
-body {
-  
-  background-color: #2F2F2C; 
-  border: 5px solid #696969;
-  margin: 10px 20px;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
 
-}
-
-
-#footer {
-    font-style: bold;
-    text-align: center;
-    color: #25C172;
-}
-a {
-    color: #25C172;  
-}
-#image {
-    margin: 0 350px;
+.image {
+    margin: 0px 0px 10px 10px;
     border:  5px solid #696969;
+    float: right;
+    padding: 2px 2px;
     
 }
+main {
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 1.5;
+	margin: 30px 120px;
+  }
+.about {
+    text-align: left;
+}
+
+#about-link {
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    color: #25C172;
+    padding: 20px 90px 60px;
+}
+
+a {
+    font-weight: bold;
+    color: #25C172;  
+}
+
+
